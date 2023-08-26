@@ -33,6 +33,7 @@ function App() {
 
   function submitCart(description, total) {
     setOrder({ order: [...cart], description: description, total: total });
+    setCart([]);
     alert("訂單已送出！");
   }
 

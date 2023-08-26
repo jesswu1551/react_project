@@ -2,10 +2,6 @@ body {
   color: #333;
 }
 
-.list-group {
-  border: 1px solid lightgray;
-}
-
 .list-group .list-group-item {
   border: 1px solid lightgray;
 }

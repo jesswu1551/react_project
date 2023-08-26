@@ -53,7 +53,6 @@ function MenuList ({ addCart }) {
   ]
 
   return (<div className="list-group">
-    <div className="p-2 list-group-title">✨ 今天想喝點什麼 ✨</div>
     {
       data.map(item => (<a href="#" key={item.id} className="list-group-item list-group-item-action"
                            onClick={() => {addCart(item)}}>
